@@ -27,7 +27,7 @@ Após a inicialização, acesse:
 | Login | `admin` |
 | Senha | `admin123` |
 
-O banco já vem populado com o usuário admin, a unidade **Matriz** e o colaborador **Guilherme Contratado Brito**.
+O banco já vem populado com o usuário admin, a unidade **Matriz** e o colaborador teste.
 
 ---
 
