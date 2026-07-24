@@ -1,9 +1,41 @@
 # Sistema de Gestão de Colaboradores e Unidades
 
+Sistema desenvolvido como avaliação técnica. Permite o gerenciamento de usuários, colaboradores e unidades organizacionais, com autenticação JWT e interface web completa.
+
+---
+
+## Como Executar
+
+Pré-requisito: **Docker** e **Docker Compose** instalados.
+
+```bash
+docker-compose up --build
+```
+
+Após a inicialização, acesse:
+
+| Serviço | URL |
+|---------|-----|
+| Frontend | http://localhost:4200 |
+| API (Swagger) | http://localhost:5000/swagger |
+| PostgreSQL | localhost:5432 |
+
+### Credenciais padrão
+
+| Campo | Valor |
+|-------|-------|
+| Login | `admin` |
+| Senha | `admin123` |
+
+O banco já vem populado com o usuário admin, a unidade **Matriz** e o colaborador **Guilherme Contratado Brito**.
+
+---
+
 ## **Tecnologias**
-* Backend: C#.
-* Front: Angular.
-* DB: PostgreSQL.
+* Backend: C# (.NET 8, ASP.NET Core Web API)
+* Front: Angular 17 (Standalone Components)
+* DB: PostgreSQL 16
+* Containerização: Docker + Docker Compose
 
 ## **Funcionalidades**
 * Cadastro de Usuário: Os usuários devem ser cadastrados com um código único, login, senha e status (ativo ou inativo).
